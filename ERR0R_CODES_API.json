@@ -1,0 +1,269 @@
+{
+  "info": {
+    "name": "Public API Collection with Error Verification",
+    "description": "A collection of publicly accessible APIs for each HTTPS method with error verification",
+    "schema": "https://schema.postman.com/collection/json/v2.1.0/draft-07/collection.json"
+  },
+  "item": [
+    {
+      "name": "GET APIs",
+      "item": [
+        {
+          "name": "Get Random Dog Image",
+          "request": {
+            "method": "GET",
+            "url": "https://dog.ceo/api/breeds/image/random"
+          }
+        },
+        {
+          "name": "Get 400 Error",
+          "request": {
+            "method": "GET",
+            "url": "https://httpstat.us/400"
+          }
+        },
+        {
+          "name": "Get 401 Error",
+          "request": {
+            "method": "GET",
+            "url": "https://httpstat.us/401"
+          }
+        },
+        {
+          "name": "Get 403 Error",
+          "request": {
+            "method": "GET",
+            "url": "https://httpstat.us/403"
+          }
+        },
+        {
+          "name": "Get 404 Error",
+          "request": {
+            "method": "GET",
+            "url": "https://httpstat.us/404"
+          }
+        }
+      ]
+    },
+    {
+      "name": "POST APIs",
+      "item": [
+        {
+          "name": "Create User",
+          "request": {
+            "method": "POST",
+            "url": "https://jsonplaceholder.typicode.com/users",
+            "body": {
+              "mode": "raw",
+              "raw": "{ \"name\": \"John Doe\", \"email\": \"john.doe@example.com\" }"
+            }
+          }
+        },
+        {
+          "name": "Post 400 Error",
+          "request": {
+            "method": "POST",
+            "url": "https://httpstat.us/400",
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            }
+          }
+        },
+        {
+          "name": "Post 401 Error",
+          "request": {
+            "method": "POST",
+            "url": "https://httpstat.us/401",
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            }
+          }
+        },
+        {
+          "name": "Post 403 Error",
+          "request": {
+            "method": "POST",
+            "url": "https://httpstat.us/403",
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            }
+          }
+        },
+        {
+          "name": "Post 404 Error",
+          "request": {
+            "method": "POST",
+            "url": "https://httpstat.us/404",
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "PUT APIs",
+      "item": [
+        {
+          "name": "Update User",
+          "request": {
+            "method": "PUT",
+            "url": "https://jsonplaceholder.typicode.com/users/1",
+            "body": {
+              "mode": "raw",
+              "raw": "{ \"name\": \"John Doe\", \"email\": \"john.doe@example.com\" }"
+            }
+          }
+        },
+        {
+          "name": "Put 400 Error",
+          "request": {
+            "method": "PUT",
+            "url": "https://httpstat.us/400",
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            }
+          }
+        },
+        {
+          "name": "Put 401 Error",
+          "request": {
+            "method": "PUT",
+            "url": "https://httpstat.us/401",
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            }
+          }
+        },
+        {
+          "name": "Put 403 Error",
+          "request": {
+            "method": "PUT",
+            "url": "https://httpstat.us/403",
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            }
+          }
+        },
+        {
+          "name": "Put 404 Error",
+          "request": {
+            "method": "PUT",
+            "url": "https://httpstat.us/404",
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "DELETE APIs",
+      "item": [
+        {
+          "name": "Delete User",
+          "request": {
+            "method": "DELETE",
+            "url": "https://jsonplaceholder.typicode.com/users/1"
+          }
+        },
+        {
+          "name": "Delete 400 Error",
+          "request": {
+            "method": "DELETE",
+            "url": "https://httpstat.us/400"
+          }
+        },
+        {
+          "name": "Delete 401 Error",
+          "request": {
+            "method": "DELETE",
+            "url": "https://httpstat.us/401"
+          }
+        },
+        {
+          "name": "Delete 403 Error",
+          "request": {
+            "method": "DELETE",
+            "url": "https://httpstat.us/403"
+          }
+        },
+        {
+          "name": "Delete 404 Error",
+          "request": {
+            "method": "DELETE",
+            "url": "https://httpstat.us/404"
+          }
+        }
+      ]
+    },
+    {
+      "name": "PATCH APIs",
+      "item": [
+        {
+          "name": "Patch User",
+          "request": {
+            "method": "PATCH",
+            "url": "https://jsonplaceholder.typicode.com/users/1",
+            "body": {
+              "mode": "raw",
+              "raw": "{ \"email\": \"john.doe@example.com\" }"
+            }
+          }
+        },
+        {
+          "name": "Patch 400 Error",
+          "request": {
+            "method": "PATCH",
+            "url": "https://httpstat.us/400",
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            }
+          }
+        },
+        {
+          "name": "Patch 401 Error",
+          "request": {
+            "method": "PATCH",
+            "url": "https://httpstat.us/401",
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            }
+          }
+        },
+        {
+          "name": "Patch 403 Error",
+          "request": {
+            "method": "PATCH",
+            "url": "https://httpstat.us/403",
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            }
+          }
+        },
+        {
+          "name": "Patch 404 Error",
+          "request": {
+            "method": "PATCH",
+            "url": "https://httpstat.us/404",
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
